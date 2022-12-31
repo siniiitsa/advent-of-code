@@ -1,5 +1,15 @@
 import fs from 'fs';
 
+// Opponent's shapes
+// A - Rock
+// B - Paper
+// C - Scissors
+
+// My shapes
+// X - Rock
+// Y - Paper
+// Z - Scissors
+
 const winningCombinations = ['A Y', 'B Z', 'C X'];
 const drawCombinations = ['A X', 'B Y', 'C Z'];
 const pointsPerShape = {
