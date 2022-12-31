@@ -10,7 +10,7 @@ const pointsPerShape = {
 
 const calcRoundScore = (combination) => {
   const myShape = combination[2];
-  const pointsForShape = pointsPerShape[combination[myShape]];
+  const pointsForShape = pointsPerShape[myShape];
 
   const isWin = winningCombinations.includes(combination);
   const isDraw = drawCombinations.includes(combination);
